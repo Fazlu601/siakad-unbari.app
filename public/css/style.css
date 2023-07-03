@@ -1,0 +1,27 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-list:hover {
+   animation: segerKeKanan 0.5s;
+   transition: all ease-in-out;
+}
+
+.nav-list:active {
+  background-color: yellow;
+  color: #ffffff;
+}
+
+
+@keyframes segerKeKanan {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(5%);
+    }
+}
